@@ -1,7 +1,8 @@
 export default function Settings() {
   return(
-    <div>
+    <section>
+      <h2>settingsのpage</h2>
       <p>どんなにディレクトリがネストしても、フォルダ内にpage.tsxが存在すれば、それはページとして機能し、アクセスできる</p>
-    </div>
+    </section>
   )
 }

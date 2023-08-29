@@ -1,10 +1,8 @@
-import { Analytics } from "./analytics/component";
-
 export default function DashBoard() {
   return (
-    <div>
+    <section>
+      <h2>dashboardのpage</h2>
       <p>page.tsxで作成された、このページはアクセスできる</p>
-      <Analytics />
-    </div>
+    </section>
   )
 }
