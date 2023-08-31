@@ -1,9 +1,15 @@
 'use client';
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export default function DashBoardTemplate({children}: {children: React.ReactNode}) {
   const [num, setNum] = useState<number>(0);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    console.log(pathname);
+  }, [pathname]);
 
   return (
     <section>
