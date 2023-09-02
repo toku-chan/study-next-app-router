@@ -30,6 +30,12 @@ export default function RootLayout({
               <li>
                 <Link href="/dashboard/settings">settingsページ</Link>
               </li>
+              <li>
+                <Link href="/about">marketingグループのaboutページ</Link>
+              </li>
+              <li>
+                <Link href="/blog">marketingグループのblogページ</Link>
+              </li>
             </ul>
           </section>
           <section>
