@@ -36,6 +36,9 @@ export default function RootLayout({
               <li>
                 <Link href="/blog">marketingグループのblogページ</Link>
               </li>
+              <li>
+                <Link href="/shop">marketingグループのshopページ</Link>
+              </li>
             </ul>
           </section>
           <section>
